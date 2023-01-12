@@ -1,0 +1,44 @@
+body, html {
+  background-color: rgb(191, 250, 255);
+  color:rgb(0, 16, 107);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+hr {
+  height: 1px;
+  color: white;
+}
+
+#title {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+#title:hover {
+  background-color: rgb(167, 248, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+
+#picture {
+  display: flex;
+  width: 40%;
+  min-width: 770px;
+}
+
+#camera {
+  border: dashed;
+  width:360;
+  height:280;
+  margin-right: 25px;
+  flex: 1;
+}
+#res {
+  border: dashed;
+  width:360;
+  height:280;
+  margin-left: 25px;
+  flex: 1;
+}
